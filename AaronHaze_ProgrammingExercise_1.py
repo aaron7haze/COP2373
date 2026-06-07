@@ -18,7 +18,7 @@ def get_ticket_request():
     while True:
         try:
             # Input from user
-            num = int(input("How many tickets would you like (1–4)? "))
+            num = int(input("How many tickets are you purchasing (1–4)? "))
 
             # Validate range
             if 1 <= num <= MAX_PER_BUYER:

@@ -37,7 +37,7 @@ def sell_tickets():
     Tracks remaining tickets and counts total buyers.
     """
     remaining = MAX_TICKETS   # Accumulator for tickets left
-    buyers = 0                # Accumulator for number of buyers
+    customers = 0                # Accumulator for number of customers
 
     # Loop until all tickets are sold
     while remaining > 0:
@@ -53,13 +53,13 @@ def sell_tickets():
 
         # Process purchase
         remaining -= request
-        buyers += 1
+        customers += 1
 
         print(f"Purchase successful. {remaining} tickets remain.")
 
     # All tickets sold
     print("\nAll tickets sold!")
-    print(f"Total buyers: {buyers}")
+    print(f"Total customers: {customers}")
 
 
 # Start the program

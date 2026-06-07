@@ -5,7 +5,7 @@
 # validates the request, updates the remaining ticket count,
 # and displays the total number of buyers when tickets run out.
 
-MAX_TICKETS = 20        # Total tickets available
+MAX_TICKETS = 10        # Total tickets available
 MAX_PER_BUYER = 4       # Maximum tickets one buyer can purchase
 
 

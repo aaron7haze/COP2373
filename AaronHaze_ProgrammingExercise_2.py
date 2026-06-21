@@ -1,4 +1,4 @@
-# Programming Exercise 2 - Spam Filter (FINAL FIXED VERSION)
+# Programming Exercise 2 - Spam Filter
 # Author: Aaron Haze
 # Date: 2026-06-14
 
